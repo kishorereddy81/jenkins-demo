@@ -37,7 +37,8 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-war-plugin</artifactId>
-                        <configuration>
+			<configuration>
+			   <webXml>src\main\Webapp\WEB-INF\web.xml</webXml>	
                             <archive>
                                 <addMavenDescriptor>false</addMavenDescriptor>
                             </archive>
