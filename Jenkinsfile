@@ -14,7 +14,9 @@ pipeline {
             }
         }
 	stage('Sonarqube') {
-   	 
+   	 environment {
+                scannerHome = tool 'sonarqubedemo'
+          }
         steps {
              sh 'mvn package sonar:sonar'
          
