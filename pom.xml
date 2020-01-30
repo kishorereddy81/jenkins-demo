@@ -5,7 +5,7 @@
     <artifactId>proj3</artifactId>
     <version>1.0-ARITRA</version>
     <packaging>pom</packaging>
-    <name>Project Build</name>
+    <name>Project Build - Sonar Demo</name>
 
     <modules>
         <module>project</module>
