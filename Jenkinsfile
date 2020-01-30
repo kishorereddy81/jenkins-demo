@@ -18,8 +18,8 @@ pipeline {
                 scannerHome = tool 'SonarqubeScanner'
           }
         steps {
-          withSonarQubeEnv('sonarqube') {
-            sh 'mvn sonar:sonar'
+          withSonarQubeEnv('SonarqubeScanner') {
+            sh 'mvn package sonar:sonar'
           }
           timeout(time: 10, unit: 'MINUTES') {
             waitForQualityGate abortPipeline: true
