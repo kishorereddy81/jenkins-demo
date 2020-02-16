@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>ci.jenkins.aws</groupId>
     <artifactId>proj3</artifactId>
-    <version>1.0-ARITRA</version>
+    <version>1.0-KISHORE</version>
     <packaging>pom</packaging>
     <name>Project Build - Sonar Demo</name>
 
